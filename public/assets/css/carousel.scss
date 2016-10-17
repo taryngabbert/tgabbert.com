@@ -1,0 +1,21 @@
+#carouselDir {
+	margin-left: auto;
+	margin-right: auto;
+    height: 300px;
+	display: block;
+	width: 300px;
+
+    #slides_control {
+        height: inherit;
+    }
+	img{
+	  width: 100%;
+	}
+	#slides_control {
+	  width: 300px;
+	  left:50%;
+	  top:20px;
+	}
+
+
+}

@@ -1,0 +1,62 @@
+.project-page {
+	margin-top: 10vh;
+	width: 90%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: $primary-grey;
+	font-family: $heading-font;
+
+	.row {
+		margin-top: 10px;
+	}
+
+	ul {
+		display: flex;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+		padding: 0;
+		margin: 0;
+		li {
+			font-size: 0.75em;
+			margin:8px 10px 0px 0px;
+			border: 2px $primary-grey solid;
+			border-radius: 15px;
+			padding: 5px;
+			display: inline-block;
+			list-style: none;
+		}
+	}
+
+	.project-title {
+		text-align: left;
+	}
+
+	.project-buttons {
+		text-align: right;
+		color: $primary-black;
+		font-size: 3em;
+		text-decoration: none;
+
+		a:visited {
+			color: $primary-teal;
+		}
+		a:hover {
+			color: black;
+		}
+	}
+
+	.about {
+		p {
+			text-align: justify;
+		}
+	}
+
+	.video {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+	}
+
+
+}

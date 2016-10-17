@@ -29,5 +29,10 @@ angular.module('tgabbert', ['ui.router', 'ui.bootstrap'])
 	  templateUrl: "public/views/portfolio/portfolio.html",
 	  controller: "portfolioCtrl"
   })
+  	.state("spotAssign", {
+		url: "/portfolio/spotAssign",
+		templateUrl: "public/views/portfolio/SpotAssign/spotAssign.html",
+		controller: "spotAssignCtrl"
+	})
 
 })
