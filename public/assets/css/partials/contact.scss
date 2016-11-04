@@ -1,0 +1,58 @@
+.contact {
+	color: $primary-grey;
+	font-size: 1.2em;
+	font-family: $body-font;
+
+	.contact-top{
+		width: 500px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 10px;
+		text-align: center;
+
+		@media screen and (max-width: $break-medium) {
+				width: 80%;
+		}
+
+		a{
+			font-size: 2em;
+		}
+	}
+
+	form {
+		width: 400px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+
+		label {
+			margin-top: 20px;
+		}
+
+		.contact-button {
+			display: block;
+			width: 100px;
+			margin-top: 20px;
+			margin-left: auto;
+			margin-right: auto;
+			height: 45px;
+			border-radius: 45px;
+			border: $primary-teal 4px solid;
+			background-color: transparent;
+			color:$primary-teal;
+			font-weight: bold;
+			padding-top: 5px;
+
+			&:hover {
+				background-color: $primary-teal;
+				color: white;
+			}
+		}
+
+
+		@media screen and (max-width: $break-medium) {
+				width: 100%;
+		}
+	}
+}

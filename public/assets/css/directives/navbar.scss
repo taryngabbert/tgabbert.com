@@ -1,24 +1,45 @@
 
 #navBar {
+	display: block;
 	font-family: $body-font;
-	margin: 0;
+	margin-top: 0;
 	height: 150px;
 	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	// background-color: $primary-black;
+	color: $primary-black;
 	background-color: rgba(255, 255, 255, 0);
 
+	@media screen and (max-width: $break-small) {
+		height: 100px;
+	}
+
+
+
 	div {
-		width: inherit;
+		width: 80%;
 		height: inherit;
 		display: flex;
 		margin-left: auto;
 		margin-right: auto;
 		justify-content: space-between;
 
+		@media screen and (max-width: $break-small) {
+			width: 100%;
+		}
+
 
 		img {
-			margin-top: 25px;
-			height: 50%;
+			margin-top: 30px;
+			height: 55%;
 			flex-shrink: 1;
+
+			@media screen and (max-width: $break-small) {
+				margin-top: 15px;
+				height: 36% ;
+			}
+
 			}
 
 		ul {
@@ -28,18 +49,21 @@
 			margin: 0;
 			flex-grow: 2;
 			li {
-				margin-top: 40px;
+				margin-top: 60px;
 				display: inline-block;
 
 				a {
 					color: $primary-black;
+					// color: white;
 					font-size: 1.2em;
 					margin-left: 5px;
 					margin-right: 5px;
+					@media screen and (max-width: $break-small) {
+						font-size: 1em; ;
+					}
 				}
 
 				.active {
-					font-size: 1.2em;
 					font-weight: bold;
 				}
 				a:hover {
@@ -51,13 +75,18 @@
 	}
 
 	#left {
-		padding-left: 20px;
 		justify-content: flex-start;
+
+		@media screen and (max-width: $break-small) {
+				padding-left: 20px;
+		}
 	}
 
 	#right {
-		padding-right: 20px;
 		justify-content: flex-end;
+		@media screen and (max-width: $break-small) {
+				padding-right: 20px;
+		}
 	}
 
 }

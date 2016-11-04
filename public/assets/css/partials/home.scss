@@ -1,0 +1,81 @@
+#home {
+	img.bg {
+	  /* Set rules to fill background */
+	  min-height: 100%;
+	  min-width: 1024px;
+	  -webkit-filter: grayscale; /*sepia, hue-rotate, invert....*/
+	  -webkit-filter: brightness(80%);
+
+	  /* Set up proportionate scaling */
+	  width: 100%;
+	  height: auto;
+
+	  /* Set up positioning */
+	  position: fixed;
+	  top: 0;
+	  left: 0;
+  }
+
+	@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
+	.home-intro {
+		display: block;
+		width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+		position: absolute;
+		z-index: 10;
+
+		p{
+			color: white;
+			mix-blend-mode: difference;
+			font-family: 'Fjalla One', sans-serif;
+			font-size: 5em;
+			line-height: 1em;
+			margin: 10px 0 0 10px;
+			white-space: nowrap;
+			overflow: hidden;
+			width: 30em;
+			animation: type 4s steps(60, end);
+		}
+		p:nth-child(2){
+			animation: type2 3s steps(60, end);
+		}
+
+		.smaller {
+			font-size: 3em;
+		}
+
+		p a{
+		  color: lime;
+		  text-decoration: none;
+		}
+
+		span{
+		  animation: blink 1s infinite;
+		}
+
+		@keyframes type{
+		  from { width: 0; }
+		}
+
+		@keyframes type2{
+		  0%{width: 0;}
+		  50%{width: 0;}
+		  100%{ width: 100; }
+		}
+
+		@keyframes blink{
+		  to{opacity: .0;}
+		}
+
+		::selection{
+		  background: black;
+		}
+	}
+}

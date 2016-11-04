@@ -1,0 +1,38 @@
+#carouselDir {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	width: 700px;
+
+	@media screen and (max-width: $break-medium) {
+			width: ($break-small - 100px);
+			height: ($break-small - 100px);
+	}
+
+	@media screen and (max-width: $break-small) {
+			width: ($break-small - 200px);
+			height: ($break-small - 200px);
+	}
+
+    #slides_control {
+        height: inherit;
+    }
+	img{
+	  width: 100%;
+	}
+	#slides_control {
+	  width: 700px;
+	  left:50%;
+	  top:20px;
+
+	@media screen and (max-width: $break-small) {
+		width: ($break-small - 200px);
+	  }
+	@media screen and (max-width: $break-medium) {
+		width: ($break-small - 100px);
+	}
+
+	}
+
+
+}

@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "eslinting": "eslint ./public/app.js",
     "style-loader": "sass --watch public/assets/css/master.scss:public/assets/css/master.css"
   },
   "repository": {
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/taryngabbert/tgabbert.com/issues"
   },
-  "homepage": "https://github.com/taryngabbert/tgabbert.com#readme"
+  "homepage": "https://github.com/taryngabbert/tgabbert.com#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "mongoose": "^4.6.6"
+  }
 }

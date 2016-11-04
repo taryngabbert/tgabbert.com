@@ -1,0 +1,20 @@
+.about {
+	.about-top {
+		position: relative;
+		padding-top: 10px;
+		display: block;
+		@media screen and (max-width: $break-small) {
+				height: 439px;
+				padding-left: -80px;
+				margin-left: -80px;
+				padding-top: 0px;
+		}
+
+	.about-bottom {
+		display: block;
+		padding-bottom: 10px;
+		margin-bottom: 20px;
+	}
+
+	}
+}

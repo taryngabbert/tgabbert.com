@@ -1,4 +1,30 @@
-<div class="">
+<div id="wrapper">
 	<nav-bar></nav-bar>
-	<h1>hi from contact</h1>
+
+	<div class="contact" id="content">
+		<div class="contact-top">
+			<h2>Say hello. Let's work together.</h2>
+
+			<h4>Find me on social media, use the form below, or shoot me an email at taryngabbert@gmail.com.</h4>
+
+			<a title="Download resume" href="/public/assets/pdf/TarynGabbertResume.pdf"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></a>
+		</div>
+		<form class="" action="index.html" method="post">
+			<div class="form-group">
+			  <label for="contactEmail">Email address *</label>
+			  <input type="email" class="form-control" id="contactEmail" aria-describedby="emailHelp" required ng-model="from" required>
+
+			  <label for="subject">Subject *</label>
+			  <input type="text" class="form-control" id="subject" aria-describedby="emailHelp" ng-model="subject" required>
+
+			  <label for="message">Message *</label>
+			  <textarea class="form-control" id="message" rows="3" ng-model="message" required></textarea>
+
+			  <button type="submit" class="contact-button" ng-click="send()">SUBMIT</button>
+
+			</div>
+		</form>
+	</div>
+
+	<footer></footer>
 </div>
