@@ -1,5 +1,5 @@
 const messageCtrl = require('./messageCtrl')
 
-module.exports=app=> {
+module.exports = app => {
 	app.post('/api/messages', messageCtrl.sendMessage)
 }

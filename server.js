@@ -15,6 +15,7 @@ app.use( session (sessionConfig) );
 
 
 const mongoUri = require("./server/config/mlab-config").mongoUri;
+mongoose.Promise = global.Promise;
 mongoose.connect(mongoUri);
 mongoose.connection.once('open', ()=> {console.log(`Connected with mongo db at ${mongoUri}`)})
 

@@ -39,6 +39,9 @@ angular.module('tgabbert', ['ui.router', 'ui.bootstrap'])
 		templateUrl: "views/portfolio/doggieDaycare/doggieDaycare.html",
 		controller: "doggieDaycareCtrl"
 	})
+})
 
-
+.constant('ref', {
+// url: "http://harrypotterbookclub.xyz"  //unblock when you want to host again
+	url: "http://localhost:4040"
 })

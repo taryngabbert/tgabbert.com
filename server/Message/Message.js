@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const Messages = mongoose.Schema(
 	{
 		from: {type: String},
-		to: {type: Sting},
+		to: {type: String},
 		subject: {type: String},
 		text: {type: String},
 		html: {type: String}
