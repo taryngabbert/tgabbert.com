@@ -2,13 +2,13 @@ angular.module('tgabbert')
 .controller('sassCtrl', function($scope) {
 	$scope.project = {
 		title: "SASS Mini Lecture"
-		, description: "Gopher was a personal project much like the current app TAKL. It was designed to help everyday people find help for the things they need to do, now."
-		, github: "https://github.com/taryngabbert/provider"
+		, description: "During my time at DevMountain, I gave a few different mini lessons. In this lesson I demonstrated how to use and install SASS, and went over some of the basic functionalities that makes this preprocessor a great tool to use."
+		, github: "https://github.com/taryngabbert/CSSpreprocessors"
 		, hosted: {
 			status: false,
 			link: null
 		}
 		, video: ""
-		, skills: ["Angular", "JavaScript", "NodeJS", "CSS", "Mongoose", "Express", "Passport", "jQuery"]
+		, skills: ["SASS", "CSS"]
 	}
 });

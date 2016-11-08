@@ -83,7 +83,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center; }
-    #footer .footer-icon-row a {
+    #footer .footer-icon-row .click-button {
       background-color: #64a3a0;
       color: white;
       border: 2px solid #64a3a0;
@@ -92,15 +92,15 @@
       border-radius: 42px;
       margin-left: 8px;
       margin-right: 8px; }
-      #footer .footer-icon-row a .footer-icon-box {
+      #footer .footer-icon-row .click-button .footer-icon-box {
         text-align: center;
         padding-top: 6px; }
-        #footer .footer-icon-row a .footer-icon-box .footer-icon-box-text {
+        #footer .footer-icon-row .click-button .footer-icon-box .footer-icon-box-text {
           font-weight: bold;
           font-size: 0.45em; }
-        #footer .footer-icon-row a .footer-icon-box i {
+        #footer .footer-icon-row .click-button .footer-icon-box i {
           font-size: 1.3em; }
-    #footer .footer-icon-row a:hover {
+    #footer .footer-icon-row .click-button:hover {
       background-color: #212121;
       color: white;
       border: 2px solid #212121; }
@@ -214,6 +214,22 @@
     @media screen and (max-width: 740px) {
       #carouselDir #slides_control {
         width: 438px; } }
+
+.maggie .maggie-top {
+  font-family: "Raleway", sans-serif;
+  color: #969696;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px; }
+
+.blog {
+  color: #969696;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  margin-top: 20vh; }
+  .blog h1 {
+    font-size: 3.5em;
+    font-weight: bold; }
 
 .portfolio-container .portfolio-heading {
   position: relative;

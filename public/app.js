@@ -24,11 +24,16 @@ angular.module('tgabbert', ['ui.router', 'ui.bootstrap'])
 	  templateUrl: "views/contact/contact.html",
 	  controller: "contactCtrl"
 	})
+	.state("maggie", {
+	  url: "/maggie",
+	  templateUrl: "views/maggie/maggie.html",
+	  controller: "maggieCtrl"
+  	})
 	.state("portfolio", {
 	  url: "/portfolio",
 	  templateUrl: "views/portfolio/portfolio.html",
 	  controller: "portfolioCtrl"
-  })
+  	})
   	.state("spotAssign", {
 		url: "/portfolio/spotAssign",
 		templateUrl: "views/portfolio/SpotAssign/spotAssign.html",
@@ -58,6 +63,11 @@ angular.module('tgabbert', ['ui.router', 'ui.bootstrap'])
 		url: "/portfolio/mongoDB",
 		templateUrl: "views/portfolio/mongodb/mongodb.html",
 		controller: "mongodbCtrl"
+	})
+	.state("TBD", {
+		url: "/portfolio/TBD",
+		templateUrl: "views/portfolio/something/something.html",
+		controller: "somethingCtrl"
 	})
 })
 

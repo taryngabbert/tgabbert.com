@@ -24,7 +24,7 @@
 		flex-wrap: wrap;
 		justify-content: center;
 
-		a {
+		.click-button {
 			background-color: $primary-teal;
 			color: white;
 			border: 2px solid $primary-teal;
@@ -46,7 +46,7 @@
 			}
 		}
 
-		a:hover{
+		.click-button:hover{
 			background-color: $primary-black;
 			color: white;
 			border: 2px solid $primary-black;
