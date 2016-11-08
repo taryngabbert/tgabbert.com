@@ -2,7 +2,7 @@ angular.module('tgabbert')
 .controller('doggieDaycareCtrl', function($scope) {
 	$scope.project = {
 		title: "Doggie Daycare"
-		, description: "Donec non orci ac nulla aliquam rhoncus ut tincidunt nulla. Fusce et justo elit. Phasellus risus ligula, convallis bibendum accumsan nec, mollis vitae quam. Curabitur in leo augue."
+		, description: "Doggie Daycare was a web application that I built in three days using Angular and Firebase. I created a website with the ability to create a dog profile and schedule appointments with your doggie daycare. The admin side of the app could approve or deny appointments."
 		, github: "https://github.com/taryngabbert/downtownDog"
 		, hosted: {
 			status: false,

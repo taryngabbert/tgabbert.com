@@ -7,11 +7,13 @@ angular.module('tgabbert')
 		   , from: $scope.from
 		   , subject: $scope.subject
 		   , text: $scope.message
+		   , name: $scope.name
 		}
 		 appService.sendMessage(newMessage).then( response => {
 			$scope.from=""
 			$scope.subject=""
 			$scope.message=""
+			$scope.name=""
 			alert("Your message has been sent!")
 		})
 	 }

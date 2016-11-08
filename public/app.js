@@ -39,6 +39,26 @@ angular.module('tgabbert', ['ui.router', 'ui.bootstrap'])
 		templateUrl: "views/portfolio/doggieDaycare/doggieDaycare.html",
 		controller: "doggieDaycareCtrl"
 	})
+	.state("gopher", {
+		url: "/portfolio/gopher",
+		templateUrl: "views/portfolio/gopher/gopher.html",
+		controller: "gopherCtrl"
+	})
+	.state("sass", {
+		url: "/portfolio/SASS",
+		templateUrl: "views/portfolio/sass/sass.html",
+		controller: "sassCtrl"
+	})
+	.state("github", {
+		url: "/portfolio/github",
+		templateUrl: "views/portfolio/github/github.html",
+		controller: "githubCtrl"
+	})
+	.state("mongodb", {
+		url: "/portfolio/mongoDB",
+		templateUrl: "views/portfolio/mongodb/mongodb.html",
+		controller: "mongodbCtrl"
+	})
 })
 
 .constant('ref', {

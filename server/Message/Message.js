@@ -6,7 +6,8 @@ const Messages = mongoose.Schema(
 		to: {type: String},
 		subject: {type: String},
 		text: {type: String},
-		html: {type: String}
+		html: {type: String},
+		name: {type: String}
 	}
 )
 
