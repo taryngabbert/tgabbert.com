@@ -73,5 +73,5 @@ angular.module('tgabbert', ['ui.router', 'ui.bootstrap'])
 
 .constant('ref', {
 // url: "http://harrypotterbookclub.xyz"  //unblock when you want to host again
-	url: "http://localhost:4040"
+	url: "http://taryngabbert.com"
 })
