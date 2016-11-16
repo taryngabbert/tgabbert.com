@@ -36,8 +36,8 @@
 			flex-shrink: 1;
 
 			@media screen and (max-width: $break-small) {
-				margin-top: 15px;
-				height: 36% ;
+				margin-top: 30px;
+				height: 50% ;
 			}
 
 			}
@@ -51,6 +51,9 @@
 			li {
 				margin-top: 60px;
 				display: inline-block;
+				@media screen and (max-width: $break-small) {
+					margin-top: 42px ;
+				}
 
 				a {
 					color: $primary-black;
@@ -59,7 +62,7 @@
 					margin-left: 5px;
 					margin-right: 5px;
 					@media screen and (max-width: $break-small) {
-						font-size: 1em; ;
+						font-size: 1.2em; ;
 					}
 				}
 

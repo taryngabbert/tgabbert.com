@@ -27,8 +27,8 @@
       flex-shrink: 1; }
       @media screen and (max-width: 538px) {
         #navBar div img {
-          margin-top: 15px;
-          height: 36%; } }
+          margin-top: 30px;
+          height: 50%; } }
     #navBar div ul {
       width: 20%;
       display: flex;
@@ -38,6 +38,9 @@
       #navBar div ul li {
         margin-top: 60px;
         display: inline-block; }
+        @media screen and (max-width: 538px) {
+          #navBar div ul li {
+            margin-top: 42px; } }
         #navBar div ul li a {
           color: #212121;
           font-size: 1.2em;
@@ -45,7 +48,7 @@
           margin-right: 5px; }
           @media screen and (max-width: 538px) {
             #navBar div ul li a {
-              font-size: 1em; } }
+              font-size: 1.2em; } }
         #navBar div ul li .active {
           font-weight: bold; }
         #navBar div ul li a:hover {
